@@ -1,0 +1,383 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    margin-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 64px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-top {
+    height: 768px;
+    max-width: 1140px;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 115px;
+}
+
+.info_top {
+    position: relative;
+}
+
+.info_top_img {
+    position: absolute;
+    right: 0;
+    max-width: 500px;
+}
+
+.top_h1 {
+    font-size: 64px;
+    color: #1F3F68;
+    width: 510px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.top_p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 400px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-bottom: 71px;
+}
+
+.knopka_project {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 50px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    margin-bottom: 190px;
+}
+
+.fr {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3f68;
+}
+
+.kon {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.user {
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+.kon2 {
+    border: 1px solid #356EAD;
+    width: 250px;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+
+.what_we_do {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 64px;
+}
+
+.tovar_cartochka {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartochka {
+    width: 359px;
+    height: auto;
+    border: 1px solid black;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    margin-bottom: 64px;
+}
+
+.img1 {
+    position: relative;
+    left: 28px;
+}
+
+.img2 {
+    position: relative;
+    left: 80px;
+}
+
+.img3 {
+    position: relative;
+    left: 48px;
+}
+
+.h4_cart {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    width: 283px;
+    margin-top: 51px;
+}
+
+.fr_cart {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.learn {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+}
+
+.info-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finish_project {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.fr_bottom {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    width: 750px;
+    margin-bottom: 64px;
+}
+
+.img_bottom {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.p_bottom {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    width: 750px;
+    margin-bottom: 82px;
+
+}
+
+.p_bottom1 {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 398px;
+}
+
+.bottom1 {
+    background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
+    border-radius: 10px;
+}
+
+.img_bottom2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 112px;
+}
+
+.foto_bottom2 {
+    position: relative;
+}
+
+.p_bottom2 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.bottom2 {
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+}
+
+.bottom3 {
+    background: linear-gradient(306.48deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%);
+    border-radius: 10px;
+}
+
+.foto_bottom3 {
+    position: relative;
+}
+
+.p_bottom3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.footer_fon {
+    background-color: #316099;
+    width: 100%
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_footer {
+    max-width: 495px;
+}
+
+.h3_footer {
+    width: 341px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.p_footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 96px;
+}
+
+.knopka_f {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    padding: 15px 80px;
+}
+
+
+.hr {
+    margin-bottom: 64px;
+    opacity: 0.4;
+}
+
+.contacts {
+    display: flex;
+}
+
+.spisok_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 64px;
+    padding-left: 0;
+}
+
+.p_contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 317px;
+}
+
+.phone_contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.email_contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.prava {
+    width: 495px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin-bottom: 64px;
+}

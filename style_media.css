@@ -1,0 +1,160 @@
+@media screen and (min-width:760px) and (max-width: 1024px) {
+    .menu {
+        margin-top: 18px;
+        margin-bottom: 30px;
+    }
+
+    .heder_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p_heder {
+        width: 520px;
+    }
+
+    .middle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .middle_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .h1_footer {
+        width: 366px;
+    }
+
+    .p_footer {
+        width: 366px;
+    }
+
+    .cnop_footer {
+        padding: 5px 30px;
+    }
+
+    .content_footer {
+        justify-content: space-evenly;
+    }
+
+    .spisok_footer {
+        flex-direction: column;
+        margin-left: 83px;
+        gap: 15px;
+    }
+
+    .prava {
+        padding-left: 83px;
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 759px) {
+    body {
+        margin: 0;
+    }
+
+    .menu {
+        margin-top: 18px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .h1_heder {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+
+    .p_heder {
+        margin-bottom: 0;
+        padding: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .middle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+    }
+
+    .middle_info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forma {
+        width: 100%;
+    }
+
+    .input_middle {
+        width: 320px;
+    }
+
+    .textarea {
+        width: 320px;
+    }
+
+    .cnop_submit {
+        width: 320px;
+        height: 50px;
+    }
+
+    .content_footer {
+        flex-direction: column;
+    }
+
+    .h1_footer {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .p_footer {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;
+        width: 343px;
+    }
+
+    .cnop_footer {
+        padding: 5px 30px;
+    }
+
+    .contact_footer {
+        margin: 15px
+    }
+
+    .spisok_footer {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .prava {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+}
